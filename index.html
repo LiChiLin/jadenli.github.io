@@ -3,60 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jaden's Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jaden Li - Personal Website</title>
+    <link rel="icon" href="assets/star-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/about_section.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/93ee3e0914.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Jaden LI</h1>
-        <p>Mathematical Finance & Financial Technology</p>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="professional-experience.html">Professional Experience</a> <!-- New clickable link -->
+        <a href="publication_projects.html">Publications & Projects</a>
+        <a href="extra_activities.html">Extra Activities</a>
+        <a href="cv.html">CV</a>
+        <h3>Contact Me</h3>
+        <p>Email: jadenli@bu.edu</p>
+        <p>LinkedIn: Jaden Li</p>
+    </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a master's student in Mathematical Finance at Boston University, with a passion for quantitative research, data analysis, and trading strategies.</p>
-    </section>
+    
+    <!-- Main content area -->
+    <div class="content-wrapper">
+        <header>
+            <h1>Jaden Li</h1>
+            <p>Welcome to my personal website</p>
+        </header>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>Quantitative Researcher at XYZ Corp</li>
-            <li>Data Scientist Intern at ABC Ltd</li>
-        </ul>
-    </section>
+        <section class="about-section">
+            <img src="assets/IMG_4290.jpg" alt="Jaden's Profile Picture" class="profile-pic">
+            <h2>Biography</h2>
+            <p>
+                I’m Jaden Li, a Master’s student in <strong>Mathematical Finance</strong> and Financial Technology at Boston University. My research interests focus on quantitative finance, portfolio optimization, and reinforcement learning algorithms.
+            </p>
+            <p>
+                I have a B.S. in <strong>Computer Science</strong> and <strong>Quantitative Finance</strong> from National Tsing Hua University (NTHU), Taiwan, and I’m currently working on innovative financial models for risk management and trading algorithms.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/jaden-li-9122911a6/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                
+                <a href="jadenli@bu.edu" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://github.com/LiChiLin" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=8zsQ6uMAAAAJ&hl=en" target="_blank">
+                    <i class="fa-brands fa-google-scholar"></i>
+                </a>
+            </div>
+        </section>
+        
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Python, C++, SQL, Financial Modeling, Machine Learning, Reinforcement Learning</p>
-    </section>
+        <footer>
+            <p>© 2024 Jaden Li. All rights reserved.</p>
+        </footer>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Here are some of the projects I have worked on:</p>
-        <ul>
-            <li>Options Pricing Model</li>
-            <li>ETF Arbitrage Strategy</li>
-        </ul>
-    </section>
+        
+    </div>
+    
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:jaden@example.com">jaden@example.com</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Jaden LI</p>
-    </footer>
 </body>
 </html>
+
