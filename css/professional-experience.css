@@ -1,0 +1,57 @@
+/* Professional Experience Section */
+.professional-experience {
+    background-color: white;
+    padding: 80px; /* Increase padding to make it taller */
+    margin: 20px auto;
+    width: 90%; /* Increase width to make it wider */
+    max-width: 900px; /* Increase max-width to make the section larger */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.professional-experience h2 {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #b33c12; /* Accent color */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.professional-experience p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    vertical-align: top;
+    font-size: 18px;
+    color: lightpink;
+}
+
+table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+table td:first-child {
+    font-weight: bold;
+    width: 15%;
+    white-space: nowrap;
+}
+
+
+table td:nth-child(2) {
+    width: 65%;
+}
+
+table td:last-child {
+    width: 20%;
+}

@@ -1,0 +1,70 @@
+.activities-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between activities */
+}
+
+.extra-activities {
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 950px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.text-content h2 {
+    font-size: 24px;
+    color: lightgreen;
+    margin-bottom: 2px; /* Reduced space below h2 */
+    font-family: 'Georgia', serif; /* Custom styling for headers */
+}
+
+.text-content h3 {
+    font-size: 15px; /* Slightly smaller than h2 for hierarchy */
+    color: lightskyblue; /* Light color for readability */
+    margin-bottom: 5px; /* Reduced space below h3 */
+    font-family: 'Georgia', serif; /* A serif font for formality */
+    font-weight: bold; /* Make the heading stand out */
+    text-transform: capitalize; /* Capitalizes the first letter of each word */
+    letter-spacing: 1px; /* Slight spacing between letters for readability */
+}
+.activities-pic {
+    width: 450px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text-content {
+    flex-grow: 1;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.links {
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #b33c12;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links a::before {
+    content: "§ ";
+}

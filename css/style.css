@@ -1,0 +1,152 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4e4d2; /* Light background color */
+    display: flex;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: 250px; /* Adjust the height of the sidebar */
+    width: 250px;
+    background-color: #333;
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 50%; /* Position it at the middle of the page */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+.sidebar h3{
+    color: gray;
+    margin-top: 50px;
+}
+.sidebar p{
+    color: gray;
+}
+
+/* Content wrapper to push it next to the sidebar */
+.content-wrapper {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #7c7c7c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+}
+/* Center the social links container */
+.social-links {
+    text-align: center;
+    margin-top: 40px; /* Adjust spacing to push the icons below the about section */
+}
+
+/* Default link color and spacing for the icons */
+.social-links a {
+    color: #333; /* Set your default link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 20px; /* Adds space between icons */
+    display: inline-block; /* Keep them inline and centered */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Make the icons larger */
+.social-links i {
+    font-size: 32px; /* Increase the size of the icons */
+    margin: 0 20px; /* Space between icons */
+}
+
+/* Prevent link color change on visit */
+.social-links a:visited {
+    color: #333; /* Same color as the default to avoid change */
+}
+
+/* Hover effect */
+.social-links a:hover {
+    color: #0077b5; /* Change color on hover if needed */
+}
+
+/* Active state (when pressed) */
+.social-links a:active {
+    color: #0077b5; /* Color when pressing the link */
+}
+
+
+/* Container for each experience item */
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+/* Company logos */
+.company-logo {
+    width: 80px;  /* Adjust the width of the logos */
+    height: auto;
+    margin-right: 20px;
+    align-self: flex-start; /* Align logo at the top */
+}
+
+/* Experience details */
+.experience-details h3 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.experience-details em {
+    font-style: italic;
+    color: #666;
+}
+
+.experience-details p {
+    margin: 5px 0;
+}
+
+.experience-details a {
+    color: #b33c12;  /* Accent color for the links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experience-details a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling for the advisors or mentors */
+.experience-details .mentor {
+    font-weight: normal;
+}
+
+
